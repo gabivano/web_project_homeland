@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header__logo {
+  width: 254px;
+  height: 70px;
+  margin: 0 auto;
+  min-width: 1280;
+  max-width: 1680;
+  padding-top: 34px;
+}
