@@ -55,23 +55,20 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 720px;
+    width: 100%;
     margin: 0;
   }
 
   .intro__title {
-    max-width: 707px;
     font-size: 45px;
     padding: 0 24px;
   }
 
   .intro__text-subtitle {
-    max-width: 720px;
     padding: 0 24px;
   }
 
   .intro__text-author {
-    max-width: 720px;
     padding: 0 24px;
   }
 
@@ -82,30 +79,25 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 288px;
     margin: 0;
   }
 
   .intro__title {
-    max-width: 288px;
     font-size: 32px;
     padding: 0 16px;
     line-height: 35px;
   }
 
   .intro__text-subtitle {
-    max-width: 288px;
     padding: 0 16px;
     line-height: 30px;
   }
 
   .intro__text-author {
-    max-width: 288px;
     padding: 0 16px;
   }
 
   .intro__text {
-    max-width: 288px;
     padding: 0 16px;
   }
 }

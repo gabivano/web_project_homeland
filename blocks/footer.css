@@ -13,15 +13,3 @@
   line-height: 26px;
   color: white;
 }
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    max-width: 320px;
-  }
-}
