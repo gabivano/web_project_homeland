@@ -24,6 +24,7 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
+  text-align: center;
   max-width: 720px;
   color: white;
   margin: 0 auto;
@@ -36,7 +37,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead {
     margin: 0;
   }
@@ -59,7 +60,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .lead {
     margin: 0;
   }

@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 34px;
+  margin: 0 auto;
 }
 
 .header__logo {
@@ -12,7 +13,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .header {
     max-width: 768px;
   }
@@ -22,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .header {
     max-width: 288px;
   }
