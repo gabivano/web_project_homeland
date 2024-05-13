@@ -1,0 +1,248 @@
+.places {
+  max-width: 984px;
+  margin: 92px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 31px; /**trocar no tablet**/
+}
+
+.places__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title artist"
+    "img text"
+    "link text"
+    ". text";
+  gap: 40px;
+}
+
+.places__title {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  max-width: 460px;
+  grid-area: title;
+  margin: 0;
+}
+
+.places__website-text-container {
+  grid-area: artist;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.places__website__url-heading {
+  font-family: "Inter", sans-serif;
+  color: #aaaaaa;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.places__website__artist {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.places__image {
+  max-width: 510px;
+  max-height: 510px;
+  grid-area: img;
+  box-shadow: 10px 10px 25px #000;
+}
+
+.places__image:hover {
+  opacity: 50%;
+}
+
+.places__paragraph-container {
+  grid-area: text;
+  width: 600px;
+  height: 600px;
+}
+
+.places__paragraph {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.places__frame-6 {
+  grid-area: link;
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  max-width: 356.08px;
+  max-height: 48px;
+  box-shadow: 5px 5px 10px #000;
+  border-radius: 4px;
+  margin: 0;
+  padding: 13px 20px;
+  text-align: center;
+}
+
+.places__frame-6:hover {
+  opacity: 25%;
+}
+
+.places__link {
+  font-family: Inter Regular;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  max-width: 315px;
+  max-height: 22px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 720px; /**não ficou como deveria**/
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+  }
+
+  .places__card {
+    gap: 28px;
+    margin-bottom: 44px;
+  }
+
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 340px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .places__website-text-container {
+    /**max-width: 352px;**/
+  }
+
+  .places__website__url-heading {
+    font-size: 12px;
+    line-height: 14.52px;
+    max-width: 67px;
+  }
+
+  .places__website__artist {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 352px;
+  }
+
+  .places__image {
+    max-width: 340px;
+    max-height: 340px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .places__paragraph-container {
+    max-width: 352px;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+
+  .places__frame-6 {
+    max-width: 355px;
+  }
+
+  .places__link {
+    font-size: 18px;
+    line-height: 21.78px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 768px; /**não ficou como deveria**/
+    margin: 0;
+    padding-top: 60px;
+  }
+
+  .places__card {
+    gap: 30px;
+    display: grid;
+    grid-template-areas:
+      "title"
+      "artist"
+      "img"
+      "text"
+      "link";
+    /**margin-top: 50px;
+    margin-bottom: 50px; /**há texto sobreposto**/
+  }
+
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    padding-left: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .places__website-text-container {
+    max-width: 288px;
+    padding-left: 16px;
+  }
+
+  .places__website__url-heading {
+    font-size: 12px;
+    line-height: 14.52px;
+    max-width: 288px;
+    padding-left: 16px;
+  }
+
+  .places__website__artist {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 288px;
+    padding-left: 16px;
+  }
+
+  .places__image {
+    max-width: 320px;
+    max-height: 320px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .places__paragraph-container {
+    max-width: 288px;
+    margin: 16px; /**colocar mais algum margin?**/
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+
+  .places__frame-6 {
+    max-width: 288px;
+  }
+
+  .places__link {
+    font-size: 14px;
+    line-height: 16.94px;
+    margin: 0 auto;
+  }
+}
