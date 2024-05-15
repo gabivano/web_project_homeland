@@ -97,7 +97,7 @@
 
 .places__link:hover {
   background: linear-gradient(
-    25 90deg,
+    90deg,
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
