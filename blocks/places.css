@@ -3,7 +3,7 @@
   margin: 92px auto 0;
   display: flex;
   flex-direction: column;
-  gap: 31px; /**trocar no tablet**/
+  gap: 31px;
 }
 
 .places__card {
@@ -101,7 +101,7 @@
 
 .places__link:hover {
   background: linear-gradient(
-    90deg,
+    25 90deg,
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
@@ -129,14 +129,11 @@
   }
 
   .places__website-url {
-    font-size: 12px;
     line-height: 14.52px;
     max-width: 67px;
   }
 
   .places__website-artist {
-    font-size: 18px;
-    line-height: 22px;
     max-width: 352px;
   }
 
@@ -158,7 +155,6 @@
   }
 
   .places__link {
-    font-size: 18px;
     line-height: 21.78px;
     max-width: 355px;
   }
@@ -207,8 +203,6 @@
   }
 
   .places__website-artist {
-    font-size: 18px;
-    line-height: 22px;
     max-width: 288px;
     padding-left: 16px;
   }
@@ -223,7 +217,7 @@
 
   .places__paragraph-container {
     max-width: 288px;
-    margin: 16px; /**colocar mais algum margin?**/
+    margin: 16px;
   }
 
   .places__paragraph {

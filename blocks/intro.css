@@ -10,7 +10,7 @@
 
 .intro__title {
   font-family: "Inter", sans-serif;
-  padding-top: 40px;
+  padding-top: 40px; /**tira essa propriedade?**/
   padding-bottom: 0px;
   font-weight: 900;
   font-size: 54px;
