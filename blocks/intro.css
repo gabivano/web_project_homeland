@@ -9,8 +9,7 @@
 }
 
 .intro__title {
-  font-family: "Inter", sans-serif;
-  padding-top: 40px; /**tira essa propriedade?**/
+  padding-top: 40px;
   padding-bottom: 0px;
   font-weight: 900;
   font-size: 54px;
@@ -20,7 +19,6 @@
 }
 
 .intro__text-subtitle {
-  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: flex-end;
   font-weight: 400;
@@ -31,7 +29,6 @@
 }
 
 .intro__text-author {
-  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: flex-end;
   font-weight: 400;
@@ -43,7 +40,6 @@
 }
 
 .intro__text {
-  font-family: "Inter", sans-serif;
   text-align: left;
   padding-bottom: 40px;
   font-weight: 400;
